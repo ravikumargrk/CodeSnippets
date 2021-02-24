@@ -1,0 +1,170 @@
+Placement is planned activity.
+There are various aspects of the placement, which should be taken care of at right time.
+Let us discuss them:
+
+A] Preparing for written/on-line tests:
+	- General pattern will be coding questions(1/2/3), technical 
+	  questions(DS/Algo/OS/C/CPP/NW/DB only) and sometimes general aptitude 
+	  questions(can be done easily).
+	  
+	  (i) Preparing for coding questions(DS and Algorithms):
+	      - In this you will be having 2-3 coding questions to do in 1/1.5 hrs.
+	      - e.g.
+	      		Company		# questions	level		mode of writing
+	      		Google 		1 		simple 		paper
+	      		Microsoft 	2		simple		on line
+	      		amazon		2		simple		on line(interview street)
+	      		samsung		-		-		-
+	      		ebay/paypal	-		-		-
+	      		linkedIn	3		2-moderate
+	      						1-hard		on line(interview street)
+	      		adobe		6		very simple	on line(interview street)
+	      		vmware		-		-		-
+	      		oracle		-		-		-
+	      		epic		4		simple		on line but only algo.
+	      		directi		2		hard		on line
+	      		flipkart	2		moderate	on line(interview street)
+	      		IBM research	-		-		-
+	      		Xerox research	-		-		-
+	      		intel		-		-		-
+	      		chronous	2		hard		written
+	      		Goldman sachs	3-4		hard		written
+	      		citrix		2		moderate	on line(interview street)
+	      		walmart		2		moderate	on line(interview street)
+	      		
+	      - First thing you need to do when you are preparing, is to have "clear 
+	      understanding of each and every concept of data-structures and algorithms". 
+	      For this books like
+	      	    - "Algorithms - by S. Dasgupta, C. H. Papadimitriou, and U. V. Vazirani" 
+	      		- I will recommend this as it is simple and to the point.
+	      	    - "Introduction to algorithms - by corman & etc" can be used.
+	      - Then you should be knowing data-structures in depth. There are libraries
+	      (Java/C++) that provide built in data-structures.
+	      - From the perspective of "Time limit" to run program, C++ is better.
+	      - You should be comfortable with syntax and semantics of it.
+	      - I am listing data-structures(along with complexity of key operations in STL) 
+	        wherein you should be very comfortable
+	      
+	       		Data-structure		    insert		delete		search
+	      		- stack			        O(1)		O(1)		O(1)
+	      		- queue			        O(1)		O(1)		O(1)
+	      		- priority queue	    O(log(n))	O(1)		irrelevant (O(n))
+	      		- vector		        O(1)		O(1)		O(1)
+	      		- pair			        O(1)		O(1)		O(1)
+	      		- map			        O(log(n))	O(log(n))	O(log(n))
+	      		- set			        O(log(n))	O(log(n))	O(log(n))
+	      		- multi-set/multi-map   O(log(n))	O(log(n))	O(log(n))
+	      		- double ended queue	O(1)		O(1)		O(1)
+	      		- unordered map(Hash-   O(1)		O(1)		O(1)
+	      		table implementation
+	      		 of C++)
+	      		 
+	      	You should know how they are implemented internally. In addition to this 
+	      	Java's "Big integer arithmetic" is also important.
+	      	
+	      - http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=standardTemplateLibrary
+	        is good tutorial for STL.
+	        
+	      - Once all of the above is done, you should read "Competitive programming - by Steven and Felix".
+	        This book gives implementation of important algorithms and data-structures in C++. It is very
+	        handy book in taking your coding skills to a new level.
+	        
+	  (ii) Preparing for C:
+	      - You must read "ANSI-C Dennis Ritchie kerninghan" book(first 160 pages will do).
+	        If you read this you can do most of the MCQs of C.
+	        
+	  (iii) preparing for OS:
+	      - I think most of you guys have clear idea of OS concepts, if
+	        so you should follow your ACE GATE notes or "Galvin PPT"s(can be found on line).
+	      - If not you should read "Galvin".
+	      
+	  (iv) preparing for object oriented principles
+	      - Most companies do ask OOP concepts from C++. There are some companies which 
+	        ask OOP concepts of Java too.
+	      - For C++, "Deitel and Deitel" and "Balaguruswamy" are good books.
+	      - For Java, I don't know good reference other than on line tutorials of oracle.
+	      
+	 (v) preparing for networking(NW) and Database
+	      - Only 2-3 companies will ask questions from this area.
+	      - For NW, "fourozon" or "tennenbaum" can be read.
+	      - Data link, internet and transport layer and routing protocol chapters will be enough.
+	      - For database, read some notes(don't waste your time here).
+	      
+	 (vi) General aptitude.
+	      - RS Agarwal will do.
+	      
+	      
+B] Interview preparation
+	- If written test preparation is done thoroughly then interview preparation can
+	  be done in fast mode.
+	- Almost all companies will ask you to write a code for given problem. For
+	  these following 2 books will be very handy and you must read them
+	  	- "Introduction to algorithms and data-structures by Karumanachi" and
+	  	- "cracking the coding interview".
+	- Also remember that a problem from "dynamic programming" will be decisive, every
+	  company from first 3 days will ask a question from dynamic programming(mastering it takes time).
+	- Many questions asked in interviews are from "tree".
+	- Apart from these below are some good websites for interview preparation:
+		- www.geeksforgeeks.org
+		- www.careercup.com
+		- www.leetcode.com
+	- Make sure to revise all subjects in time. A night before interview if you are revising
+	  anything then it should be algorithms(most of the questions are from algorithms).
+		
+Timing related advice:
+	(i) coding practice will definitely take a time. You should at least start practicing at the
+	  end of second semester. As summer vacation is long leisure time where you can spend time
+	  strengthening your coding skills.
+	- create account on following on line coding websites and start practicing:
+		- www.hackerrank.com
+		- www.spoj.com
+		- www.codechef.com
+		- ahmed-aly.com/Categories.jsp
+	  
+	(ii) In IITM, written test will start in mid November (beginning of November in other IITs).
+	     Make sure that you read "karumanachi" before this because almost all coding questions
+	     are from karumanachi(if you manage to read "cracking the coding interview", it will be
+	     icing on the cake).
+	     
+	(iii) Interview preparation can be started at the beginning of November.
+	
+	
+Some key observation:
+	(i) If your CGPI is >8.5, you can expect yourself to get shortlisted for almost all 
+	    companies(they do look at the CGPI while shortlisting), if you perform at average level.
+	(ii) To be honest, if you are <8.5 then your all coding questions should be running
+	     perfectly otherwise you have less chance to get shortlisted. So make sure your CGPI is
+	     better by the end of second semester.
+	(iii) During on line tests you need to write code in the editor provided on the websites. Take
+	     this from me, it is clumsy and messy.
+	     	- If your code isn't working correctly(which will happen every time), you don't have debuggers
+	     	  like gdb at your service. You need to live with the messages that you can print with 
+	     	  "printf"s(or equivalent functions in C++).
+	     	- To make situation worse some companies(like flipkart) won't even allow you to see the 
+	     	  debug messages printed by "printf"(it will only report if your program passes a test case).
+	     	- So once you have done good practice on coding websites listed above, try deliberately to
+	     	  write code in their editors.
+	     	- Most of time you will struggle to read input to a program correctly(trust me this happens).
+	     	  To be cautious try followings(these are the ways to read input for a program):
+	     	  	- You will be given # of test cases and fixed pattern for each test case(should be easy),
+	     	  	  normally followed by all websites.
+	     	  	- You know the # test cases but you don't know the pattern of each test case(bit tricky).
+	     	  	  Here you should able to read variable length line input.
+	     	  	- You don't know  # test cases and pattern of each test case(trickiest). Here you should able
+	     	  	  to read variable length line input and variable # test cases(HINT: all input functions
+	     	  	  don't gel well with '\n' character).
+	     	- In interview street once you run the sample test cases, a button to run "hidden test cases" will
+	     	  be visible. People do forget to that button and hence forget run hidden test cases(stupid isn't it?).
+	     	- Make sure "submit" your code, some do forget.
+	 (iv) If written test is asking you write code on a paper use pencil(we do scratch a code a lot).
+	 (v) During interview if any hard question is asked and you can't come to solution in time(3-5 min),
+	     start thinking out loud. Doing so may sometimes give you an answer to a problem or at least interviewer
+	     will give you some clue. Note that interviewer is looking at the way you attack the question and your
+	     thought process.
+	 (vi) Also complete significant part of your M.Tech project before interviews. It does affect
+	     your performance and should not be ingnored.
+	     
+	     
+At last I only want to say that placement is not at all a big deal. It is actually fun activity as after completion
+of each and every step of it you will be at a higher level of confidence. And at the end of all you find yourself at
+a new best of yourself(thats very very pleasing) in every aspect. But key is to Plan and execute it at right time.
