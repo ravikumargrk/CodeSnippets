@@ -7,7 +7,7 @@ void SolveMissingDigits(char input[]){
     // extract a
     char* token;
     char* brk = strpbrk(input, "-+*/");
-    char op[] = {input[(int)(brk-input)]};
+    char op[] = {*(brk)};
     token = strtok(input, op); // break at operator
     
     char a[10];
@@ -79,7 +79,8 @@ void printallsentences(char essay[]){
         // strpbrk
         brk = strpbrk(remaining_essay,".?!");
         if(brk==NULL) break;
-        delim[0] = remaining_essay[(int)(brk-remaining_essay)];
+        // delim[0] = remaining_essay[(int)(brk-remaining_essay)];
+        delim[0] = *(brk);
         token = strtok(remaining_essay, delim); 
         if(token==NULL){
             break;
