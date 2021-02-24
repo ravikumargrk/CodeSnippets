@@ -84,14 +84,16 @@ void printallsentences(char essay[]){
         if(token==NULL){
             break;
         }
-        printf("%s%s\n", token, delim);
+        printf("%s%s\n", (token[0]==' ')?token+1:token, delim);
         remaining_essay = remaining_essay + strlen(token) + 1;
     }
 }
 
 
 int main() {
-    // printallsentences(teststr);
+    // test
+    printallsentences(teststr);
+
     // 12?4.34=23?5
     char input[35];
     strcpy(input, "5?6*24=1?824");
